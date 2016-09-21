@@ -3,6 +3,7 @@
 //  CardFlip2
 //
 //  Created by Joel Hollingsworth on 9/14/16.
+//  Edited by Alexis padula on 9/21/16
 //  Copyright © 2016 Joel Hollingsworth. All rights reserved.
 //
 
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var messageAreaLabel: UILabel!
 
+    var deck = Deck()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,3 +33,6 @@ class ViewController: UIViewController {
         }
     }
 }
+
+//add in flip code
+
